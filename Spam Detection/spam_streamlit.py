@@ -1,7 +1,5 @@
 import streamlit as st
 import pickle
-import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer
 
 st.title('E-Mail Spam Detection')
 with open(r"spam_detection.pkl",'rb') as file:
